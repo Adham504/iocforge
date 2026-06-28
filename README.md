@@ -288,12 +288,6 @@ The architecture is designed so each of the items above is a *drop-in*:
 
 No existing code needs to change (Open/Closed Principle).
 
----
-
-## 🌍 Arabic Developer Guide
-
-A full beginner-friendly Arabic explanation of every file, function, and
-important code block lives in **[`docs/شرح_الكود_بالعربية.md`](docs/شرح_الكود_بالعربية.md)**.
 
 ---
 
