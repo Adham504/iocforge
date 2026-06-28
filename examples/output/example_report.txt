@@ -1,0 +1,29 @@
+================================================================
+IOCForge — Analysis Summary
+================================================================
+Generated : 2026-06-28T16:57:44.661179+00:00
+Version   : 1.0.0
+Sources   : examples/sample_report.txt, examples/sample_logs.log, examples/sample_iocs.json
+Total IOCs: 22
+
+IOCs by type
+----------------------------------------------------------------
+  Domain           5
+  URL              3
+  MITRE ATT&CK     3
+  Email            2
+  SHA256           2
+  Bitcoin Wallet   2
+  CVE ID           2
+  IPv4             1
+  MD5              1
+  SHA1             1
+
+IOCs by risk
+----------------------------------------------------------------
+  unknown          22
+
+Flagged indicators (MEDIUM+): 0
+----------------------------------------------------------------
+  No malicious indicators detected.
+================================================================

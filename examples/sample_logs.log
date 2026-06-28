@@ -1,0 +1,7 @@
+2026-06-20 08:14:22 INFO  Connection from 198.51.100.23 to internal host
+2026-06-20 08:14:25 WARN  Suspicious DNS query: data-exfil.badactor-domain.ru
+2026-06-20 08:15:01 ERROR Malware download blocked: http://45.137.21.53/payload.bin
+2026-06-20 08:15:30 INFO  Normal traffic from 10.0.0.42 (private, ignored)
+2026-06-20 08:16:11 WARN  Hash flagged: 275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f
+2026-06-20 08:17:05 INFO  Beacon to 203.0.113.45 every 60s
+2026-06-20 08:18:42 WARN  Outbound to phish-login.secure-update.top:443

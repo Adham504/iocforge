@@ -1,0 +1,42 @@
+Threat Intelligence Report — Operation Nightshade
+==================================================
+
+Summary
+-------
+During the investigation, the following indicators of compromise were observed
+in network telemetry and endpoint logs. Several indicators have been defanged
+for safe handling.
+
+Network Indicators
+------------------
+C2 Server (primary)   : 45.137.21.53
+C2 Server (backup)    : hxxp://malicious-c2[.]example-evil[.]net/gate.php
+Beacon endpoint       : https://203.0.113.45/api/checkin
+Exfil domain          : data-exfil.badactor-domain.ru
+Defanged domain       : phish-login[.]secure-update[.]top
+IPv6 callback         : 2001:db8:dead:beef::1337
+Benign / ignore me    : 192.168.1.10 (internal), 127.0.0.1 (loopback), 10.0.0.5
+
+Email Indicators
+----------------
+Phishing sender       : invoice@badactor-domain.ru
+Spoofed support       : support[at]secure-update[.]top
+Test (ignore)         : admin@example.com
+
+File Indicators
+---------------
+Dropper (MD5)         : 44d88612fea8a8f36de82e1278abb02f
+Loader (SHA1)         : 3395856ce81f2b7382dee72602f798b642f14140
+Payload (SHA256)      : 9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08
+Real malware sample   : 275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f
+
+Crypto / Ransom
+---------------
+Bitcoin wallet        : 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
+Bech32 wallet         : bc1qw508d6qejxtdg4y5r3zarvary0c5xw7kv8f3t4
+
+Attribution
+-----------
+Exploited CVE         : CVE-2024-3094, CVE-2021-44228
+MITRE ATT&CK          : T1059.001 (PowerShell), T1071 (App Layer Protocol), T1486
+APT group             : tracked internally as "Nightshade"

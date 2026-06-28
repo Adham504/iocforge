@@ -1,0 +1,282 @@
+{
+  "metadata": {
+    "tool": "IOCForge",
+    "version": "1.0.0",
+    "generated_at": "2026-06-28T16:57:44.661179+00:00",
+    "source_files": [
+      "examples/sample_report.txt",
+      "examples/sample_logs.log",
+      "examples/sample_iocs.json"
+    ],
+    "total_iocs": 22
+  },
+  "indicators": {
+    "SHA256": [
+      {
+        "value": "275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f",
+        "type": "sha256",
+        "count": 3,
+        "sources": [
+          "examples/sample_iocs.json",
+          "examples/sample_logs.log",
+          "examples/sample_report.txt"
+        ],
+        "risk_level": "unknown",
+        "enrichment": []
+      },
+      {
+        "value": "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08",
+        "type": "sha256",
+        "count": 1,
+        "sources": [
+          "examples/sample_report.txt"
+        ],
+        "risk_level": "unknown",
+        "enrichment": []
+      }
+    ],
+    "SHA1": [
+      {
+        "value": "3395856ce81f2b7382dee72602f798b642f14140",
+        "type": "sha1",
+        "count": 1,
+        "sources": [
+          "examples/sample_report.txt"
+        ],
+        "risk_level": "unknown",
+        "enrichment": []
+      }
+    ],
+    "MD5": [
+      {
+        "value": "44d88612fea8a8f36de82e1278abb02f",
+        "type": "md5",
+        "count": 1,
+        "sources": [
+          "examples/sample_report.txt"
+        ],
+        "risk_level": "unknown",
+        "enrichment": []
+      }
+    ],
+    "URL": [
+      {
+        "value": "https://203.0.113.45/api/checkin",
+        "type": "url",
+        "count": 2,
+        "sources": [
+          "examples/sample_iocs.json",
+          "examples/sample_report.txt"
+        ],
+        "risk_level": "unknown",
+        "enrichment": []
+      },
+      {
+        "value": "http://45.137.21.53/payload.bin",
+        "type": "url",
+        "count": 1,
+        "sources": [
+          "examples/sample_logs.log"
+        ],
+        "risk_level": "unknown",
+        "enrichment": []
+      },
+      {
+        "value": "http://malicious-c2.example-evil.net/gate.php",
+        "type": "url",
+        "count": 1,
+        "sources": [
+          "examples/sample_report.txt"
+        ],
+        "risk_level": "unknown",
+        "enrichment": []
+      }
+    ],
+    "IPv4": [
+      {
+        "value": "45.137.21.53",
+        "type": "ipv4",
+        "count": 3,
+        "sources": [
+          "examples/sample_iocs.json",
+          "examples/sample_logs.log",
+          "examples/sample_report.txt"
+        ],
+        "risk_level": "unknown",
+        "enrichment": []
+      }
+    ],
+    "Domain": [
+      {
+        "value": "badactor-domain.ru",
+        "type": "domain",
+        "count": 4,
+        "sources": [
+          "examples/sample_iocs.json",
+          "examples/sample_report.txt"
+        ],
+        "risk_level": "unknown",
+        "enrichment": []
+      },
+      {
+        "value": "data-exfil.badactor-domain.ru",
+        "type": "domain",
+        "count": 2,
+        "sources": [
+          "examples/sample_logs.log",
+          "examples/sample_report.txt"
+        ],
+        "risk_level": "unknown",
+        "enrichment": []
+      },
+      {
+        "value": "phish-login.secure-update.top",
+        "type": "domain",
+        "count": 2,
+        "sources": [
+          "examples/sample_logs.log",
+          "examples/sample_report.txt"
+        ],
+        "risk_level": "unknown",
+        "enrichment": []
+      },
+      {
+        "value": "malicious-c2.example-evil.net",
+        "type": "domain",
+        "count": 1,
+        "sources": [
+          "examples/sample_report.txt"
+        ],
+        "risk_level": "unknown",
+        "enrichment": []
+      },
+      {
+        "value": "secure-update.top",
+        "type": "domain",
+        "count": 1,
+        "sources": [
+          "examples/sample_report.txt"
+        ],
+        "risk_level": "unknown",
+        "enrichment": []
+      }
+    ],
+    "Email": [
+      {
+        "value": "invoice@badactor-domain.ru",
+        "type": "email",
+        "count": 2,
+        "sources": [
+          "examples/sample_iocs.json",
+          "examples/sample_report.txt"
+        ],
+        "risk_level": "unknown",
+        "enrichment": []
+      },
+      {
+        "value": "support@secure-update.top",
+        "type": "email",
+        "count": 1,
+        "sources": [
+          "examples/sample_report.txt"
+        ],
+        "risk_level": "unknown",
+        "enrichment": []
+      }
+    ],
+    "Bitcoin Wallet": [
+      {
+        "value": "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa",
+        "type": "bitcoin",
+        "count": 1,
+        "sources": [
+          "examples/sample_report.txt"
+        ],
+        "risk_level": "unknown",
+        "enrichment": []
+      },
+      {
+        "value": "bc1qw508d6qejxtdg4y5r3zarvary0c5xw7kv8f3t4",
+        "type": "bitcoin",
+        "count": 1,
+        "sources": [
+          "examples/sample_report.txt"
+        ],
+        "risk_level": "unknown",
+        "enrichment": []
+      }
+    ],
+    "CVE ID": [
+      {
+        "value": "CVE-2021-44228",
+        "type": "cve",
+        "count": 1,
+        "sources": [
+          "examples/sample_report.txt"
+        ],
+        "risk_level": "unknown",
+        "enrichment": []
+      },
+      {
+        "value": "CVE-2024-3094",
+        "type": "cve",
+        "count": 1,
+        "sources": [
+          "examples/sample_report.txt"
+        ],
+        "risk_level": "unknown",
+        "enrichment": []
+      }
+    ],
+    "MITRE ATT&CK": [
+      {
+        "value": "T1059.001",
+        "type": "mitre",
+        "count": 1,
+        "sources": [
+          "examples/sample_report.txt"
+        ],
+        "risk_level": "unknown",
+        "enrichment": []
+      },
+      {
+        "value": "T1071",
+        "type": "mitre",
+        "count": 1,
+        "sources": [
+          "examples/sample_report.txt"
+        ],
+        "risk_level": "unknown",
+        "enrichment": []
+      },
+      {
+        "value": "T1486",
+        "type": "mitre",
+        "count": 1,
+        "sources": [
+          "examples/sample_report.txt"
+        ],
+        "risk_level": "unknown",
+        "enrichment": []
+      }
+    ]
+  },
+  "statistics": {
+    "by_type": {
+      "IPv4": 1,
+      "Domain": 5,
+      "URL": 3,
+      "Email": 2,
+      "MD5": 1,
+      "SHA1": 1,
+      "SHA256": 2,
+      "Bitcoin Wallet": 2,
+      "CVE ID": 2,
+      "MITRE ATT&CK": 3
+    },
+    "by_risk": {
+      "unknown": 22
+    }
+  },
+  "Threat_Intelligence": {}
+}
